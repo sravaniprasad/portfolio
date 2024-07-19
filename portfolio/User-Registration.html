@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School-management-Data</title>
+    <link rel="stylesheet" href="User-Registration.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <h1>User Registration Service</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showContent('description')">Description</a></li>
+                    <li><a href="#" onclick="showContent('screenshots')">ScreenShots</a></li>
+                    <li><a href="#"  onclick="showContent('github')">Github</a></li>
+                    <li><a href="#" onclick="showContent('presentation')">Presentation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="description" class="content active">
+            <h2><b>Tools Used:</b></h2> 
+            <p><span>Spring Tool Suite(STS), VSCode, MySql Database, Postman</span></p>
+            <h2><b>Languages Used:</b></h2>
+            <p><span>Frontend: Html, Css, JS, Angular, Bootstrap<br>Backend: Spring Boot, Java<br>Database: SQL Server</span></p>
+            <h2><b>Description</b></h2> 
+            <p>I have developed this project using Java, Spring Boot, Hibernate, and MySQL. It’s a web-based project, also utilizing HTML, CSS, Angular, and Bootstrap.</p>
+            <p> here i had used technologies springboot, java8, mysql database, html, css, js, angular4 and microservices. here user can register and login with their credentials with certain validations. then we can see the dashboard with user details, user can view the status, data and download the data. admin can upload and delete the data.
+            </p>        </div>
+        <div id="screenshots" class="content">
+            <h2>ScreenShots</h2>
+            <img src="images/user1.png" alt="Screenshot 1">
+            <img src="images/user2.png" alt="Screenshot 2">
+            <img src="images/signup.png" alt="Signup Page">
+            <img src="images/adminlogin3.png" alt="Admin Login">
+            <img src="images/admindata4.png" alt="Admin Data">
+            <img src="images/AdminToAdduser.png" alt="Admin to Add User">
+            <img src="images/expandable6.png" alt="Expandable Section">
+            <img src="images/adminHealthCheck7.png" alt="Admin Health Check">
+            <img src="images/status8.png" alt="Status Page">
+            <img src="images/usersdata9.png" alt="Users Data">
+            <img src="images/forgotpassword10.png" alt="Forgot Password">
+            <img src="images/resetpassword11.png" alt="Reset Password">
+        </div>
+        <div id="github" class="content">
+            <h2><b>Github Link</b></h2> 
+            <p>Here is the GitHub link to follow the project: User-Registration-Service</p>
+            <a href="https://github.com/sravaniprasad/Project2-UserRegistrationServices" target="_blank">https://github.com/sravaniprasad/Project2-UserRegistrationServices</a>
+        </div>
+        <div id="presentation" class="content">
+            <h2><b>Zipfile of User-Registration-Service</b></h2>
+            <p>Here is the Zipfile of User-Registration-Service, i.e., Source Code:</p>
+            <div class="file-info">
+                <i class="fas fa-file-archive file-icon"></i>
+                <span>User-Registration-Service.zip</span>
+            </div>
+            <div class="download-buttons">
+                <a href="images/Project2-UserRegistrationServices-main.zip" download="Project2-UserRegistrationServices-main.zip">
+                    <button>Download ZIP <i class="fas fa-file-archive"></i></button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showContent(contentId) {
+            var contents = document.getElementsByClassName('content');
+            for (var content of contents) {
+                content.classList.remove('active');
+            }
+            document.getElementById(contentId).classList.add('active');
+        }
+    </script>
+</body>
+</html>

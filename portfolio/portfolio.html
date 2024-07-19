@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p id="role">Backend Developer</p>
+                <h1>Hello there, I'm <br/>
+                    <span id="name">Sravani Chengannagari</span>
+                </h1>
+            </div>
+        </div>
+    </div>
+    
+    <!-- about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col">
+                <img src="images/sravani2.jpg">
+            </div>
+            <div class="about-col-1">
+                <h1 class="heading">About me</h1>
+                <p>Highly skilled Java Developer with expertise in Spring Boot along with microservices, Jenkins. Seeking a challenging position to leverage my technical skills and contribute to the development and quality assurance of cutting-edge software solutions. Seeking a dynamic position in developing in order to increase my knowledge and further develop my skills in the field. To obtain a creative and challenging position in an organization that gives me an opportunity for self-improvement and leadership, while contributing to the symbolic growth of the organization with my technical, innovative and logical skills.</p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                <p class="tab-links"  onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Java Development</span><br/>Designing an application using java8 features</li>
+                    <li><span>web development</span><br/>Designing web application (HTML, CSS, JS)</li>
+                    <li><span>UI/UX development</span><br/>Designing web/app interfaces</li>
+                    <li><span>Databases</span><br/>To fetch and retrive the data from the records in database</li>
+                
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2020-2021</span><br/>Java full stack developer Internship at Edubridge(Capgemini certified)</li>
+                    <li><span>2021-present</span> Backend developer at Capgemini</li>
+                    
+                </ul>
+              </div>
+
+
+              <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2016-2020</span><br/>B.Tech(CSE) at Kadapa KLMCEW with 7.3 C.G.P.A</li>
+                    <li><span>2014-2016</span><br/>Intermmediate at nellore Narayana Junior college with 86.3%</li>
+                    <li><span>2013-2014</span><br/>S.S.C at Rajampet sri chaitanya high school with 8.5 C.G.P.A</li>
+                
+                </ul>
+              </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- services -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design: HTML, CSS, JS</h2><br/>
+                <p>Quickly Build a Website With Our Unified Platform.Website Designs With Beautiful Themes That Are Responsive and Customizable.</p>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java Development: Java8, Collection framework, Exceptional handling</h2><br/>
+                <p>Create responsive web applications using cutting-edge Java technologies, delivering dynamic user experiences with our team & Develop scalable and secure Java applications tailored for enterprise-level requirements, guaranteeing robust performance.</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2><br/>
+                <p> UI/UX include visual design, prototyping, and responsive design to ensure consistent aesthetics across various devices. User experience design focuses on understanding user needs through research, structuring content effectively, and creating wireframes to outline functionality.</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-database"></i>
+                <h2>Databases: MySQL</h2><br/>
+                <p>MySQL database services involve a range of activities designed to ensure efficient, secure, and reliable management of data. These services include database design and architecture, where experts structure the database to optimize performance and scalability. Advanced services may include data migration, where data is transferred from other databases to MySQL, and support for complex queries and stored procedures to enhance application functionality. Overall, MySQL database services are crucial for maintaining the integrity, performance, and security of data-driven applications.</p>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-circle-check"></i>
+                <h2>Testing</h2><br/>
+                <p>Unit Testing: writes testcases by using JUnits and Mockito to follow TDD approach. where individual units or components of a software application are tested in isolation to ensure they function correctly. Each unit is the smallest testable part of an application, typically a function, method, or class. The primary goal of unit testing is to validate that each unit of the software performs as expected, which helps identify and fix bugs early in the development process. </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- work -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="work-heading">Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/SS.jpg" alt="User Registration Service">
+                <div class="layer">
+                    <h3>School management System</h3>
+                    <p>school management system which belongs to frontend html css backend springboot and mysql databases. here we introduced the system students and teachers can login into their portals to view updates regarding to their profile and school in online system.</p>
+                    <a href="School-management.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/RandL.jpg" alt="User Registration Service">
+                <div class="layer">
+                    <h3>User Registration Service</h3>
+                    <p>User registration and login services, here I used technologies Spring Boot, Java 8, MySQL database, HTML, CSS, JS, Angular 4, and microservices. Here user can register and login with their credentials with certain validations. Then we can see the dashboard with user details, user can view the status, data, and download the data. Admin can upload and delete the data.</p>
+                    <a href="User-Registration.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/maxresdefault.jpg" alt="User Registration Service">
+                <div class="layer">
+                    <h3>Dumping Excel file to database</h3>
+                    <p>Dumping Excel sheet into database using Springboot and Angular4, if we have a too many records, we can make the file safer by dumping the excel file into the database, in this project we had created a single page application to dump the all registered users data into the database for communication purpose</p>
+                      <a href="ExcelToDB.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/food.jpg" alt="User Registration Service">
+                <div class="layer">
+                    <h3>Food order Application</h3>
+                    <p>This project belongs to one of the e-commerce domain. here, I designed like people can order the foods what ever they want, means like seeing the catlog, list their favourites, choosing the food, checks the price, adding the item to cart, then purchasing their food through online </p>
+                    <a href="FoodOrder.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ContactUs -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                 <h1 class="sub-title">Contact Me</h1>
+                 <p><i class="fa-solid fa-paper-plane"></i>  chengannagarisravani@gmail.com</p>
+                 <p><i class="fa-solid fa-phone"></i>  7416631695</p>
+                 <div class="icons">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                 </div>
+                 <a href="images/Sravani Resume.docx" class="btn btn1">Download Resume</a>
+            </div>
+            <div class="contact-right">
+
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Enter your name" required>
+                    <input type="email" name="Email" placeholder="Enter your email" required>
+                    <textarea name="Message" rows="6" placeholder="Enter your message"></textarea>
+                    <span id="msg"></span>
+                    <button type="submit" class="btn2 btn3">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+ </div>
+             
+<script>
+    function opentab(tabname) {
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyjGvAa5k_q02KmtC1bwteYIdtxvPbE3mbGYPFPylJr5FpXvpJZSTfI9QAbsIBcixw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent!!!"
+            setTimeout(function(){
+            msg.innerHTML=" "
+        },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const texts = ["Backend Developer", "Sravani Chengannagari"];
+        const typingSpeed = 100;
+        const delayBetweenTexts = 500; // 0.5 seconds delay between texts
+
+        let textIndex = 0;
+        let charIndex = 0;
+
+        function typeText() {
+            if (charIndex < texts[textIndex].length) {
+                if (textIndex == 0) {
+                    document.getElementById('role').textContent = texts[textIndex].substring(0, charIndex + 1);
+                } else {
+                    document.getElementById('name').textContent = texts[textIndex].substring(0, charIndex + 1);
+                }
+                charIndex++;
+                setTimeout(typeText, typingSpeed);
+            } else {
+                charIndex = 0;
+                textIndex++;
+                if (textIndex < texts.length) {
+                    setTimeout(typeText, delayBetweenTexts);
+                } else {
+                    // Remove the cursor once the typing is complete
+                    document.querySelector('#role').classList.remove('typing');
+                    document.querySelector('#name').classList.remove('typing');
+                }
+            }
+        }
+
+        // Clear the initial content before starting the typing effect
+        document.getElementById('role').textContent = "";
+        document.getElementById('name').textContent = "";
+
+        // Add the typing class to show the cursor
+        document.querySelector('#role').classList.add('typing');
+        document.querySelector('#name').classList.add('typing');
+
+        typeText();
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School-management-Data</title>
+    <link rel="stylesheet" href="School-management.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <h1>School Management System</h1>
+            <nav>
+                <ul>
+                    <li><a href="#" onclick="showContent('description')">Description</a></li>
+                    <li><a href="#" onclick="showContent('screenshots')">ScreenShots</a></li>
+                    <li><a href="#"  onclick="showContent('github')">Github</a></li>
+                    <li><a href="#" onclick="showContent('presentation')">Presentation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="description" class="content active">
+          
+            <h2> <b>Tools Used: </b></h2> 
+            <p><span>Spring Tool Suite(STS), MySql Database, Tomcat server</span></p>
+            <h2><b>Languages Used: </b> </h2>
+            <p><span>Frontend: Html, Css, JS, Bootstrap <br/> Backend: Spring boot, Java <br/> Database: SQL Server</span></p>
+            <h2> <b>Description </b></h2> 
+            <p>I have developed this Project in Java, JSP, Servlets,
+                Hibernate and MySQL. It’s a web-based project , I
+                also used HTML, CSS, JavaScript and Bootstrap
+                also.
+                </p>
+            <p>The project aims to automate the process of school
+                management system and make the process of Admin
+                easier like to hire the student and teacher. It allows
+                student to take admission and join to the school and
+                can view their performances in student portal. It also
+                allows teacher to apply the job and then manage and
+                maintain their students in teacher portal. Finally,
+                admin can manage both the teacher and student
+                details in admin portal
+                A school management system consists of student
+                login, teacher login and Admin login</p>
+
+        </div>
+        <div id="screenshots" class="content">
+            <h2>ScreenShots</h2>
+            <img src="images/1.png">
+            <img src="images/2.png">
+            <img src="images/3.png">
+            <img src="images/5.png">
+            <img src="images/6.png">
+            <img src="images/7.png">
+            <img src="images/8.png">
+            <img src="images/9.png">
+            <img src="images/10.png">
+            <img src="images/11.png">
+            <img src="images/12.png">
+        </div>
+        <div id="github" class="content">
+            <h2> <b>Github Link </b></h2> 
+            <p>Here, is the github link to follow the project: School_management_system</p><br/>
+            <a href="https://github.com/sravaniprasad/School_management_system/tree/master">https://github.com/sravaniprasad/School_management_system/tree/master</a>
+        </div>
+    </div>
+   
+    <div id="presentation" class="content">
+        <h2><b>Document and Zipfile of School-management-system</b></h2>
+        <p>Here is the document of School_management_system for better understanding:</p>
+        <embed class="pdf" src="images/School management System.pdf" type="application/pdf" width="600" height="400">
+        <br/><br/> 
+        <div class="download-buttons">
+            <a href="images/School management System.pdf" download="School management System.pdf">
+                <button>Download PDF <i class="fa-regular fa-file-pdf"></i></button>
+            </a>
+        </div>
+
+        <p>Here is the Zipfile of School_management_system i.e., SourceCode:</p>
+        <div class="file-info">
+            <i class="fa-solid fa-file-archive file-icon"></i>
+            <span>School_management_system-master.zip</span>
+        </div>
+        <div class="download-buttons">
+            <a href="images/School_management_system-master (1).zip" download="School_management_system-master.zip">
+                <button>Download ZIP <i class="fa-solid fa-file-archive"></i></button>
+            </a>
+        </div>
+    </div>
+    <script>
+        function showContent(contentId) {
+            var contents = document.getElementsByClassName('content');
+            for (var content of contents) {
+                content.classList.remove('active');
+            }
+            document.getElementById(contentId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
